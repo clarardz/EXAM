@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {  
+    font-family: 'Montserrat', sans-serif ;
+    background-color: #fefcf5;
+}
+
+/* NAV BAR  */
+h1{
+    font-size: 2.5vw; 
+  
+}
+
+.logo{
+    width: 40vh; 
+}
+header {
+    margin: .5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin-top: 5em;
+    margin-right: 3em;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4.1rem;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2vw; 
+    position: relative;
+    
+}
+ul li a:hover{
+   color: #eb89b5; 
+}
+
+/* MAIN */
+
+main {
+    margin: 2em 5em;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1.5em 0em;
+    font-weight: normal;
+    color: gray;
+}
+
+
+.gato1 {
+
+    margin-top: 20vh;
+    display: flex;
+    gap: 2em;
+    align-items: stretch;
+    height: 40rem; 
+  
+}
+
+.gato1 img {
+    object-fit: cover;
+    margin-right: 20px;
+    max-width: 50%;
+    max-height: 100%;
+
+}
+
+aside {
+    
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2vw; 
+    max-width: 50%;
+    max-height: 100%;
+    margin-left: 15px;
+    padding: .1rem 2rem .5rem 2rem; 
+    background-color: #eaa8c655;
+    line-height: 4vh;
+    border-radius: 5px;
+}
+
+
+#nosotros {
+    margin-top: 8em;
+    padding: 2.4em 5em;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+
+/* GALERIA DE FOTOS */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh;
+    justify-content: center;
+    background-color: #eaa8c655;
+    padding: 5em 1em;
+    border-radius: 5px;
+}
+.galeria img {
+    width: 60vh;
+    height: 60vh;
+    object-fit: cover;
+  
+}
+
+
+/* IFRAMES */
+
+.video {
+    width: 100%;
+
+     padding: 10em 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* TESTIMONIOS*/
+
+#testimonios{
+
+    display: flex; 
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: 100px 50px;
+    
+    
+}
+#testimonios h4{
+    width: 100%; 
+    margin: 4rem 1rem ;
+}
+ 
+#testimonios img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.testimonio1, .testimonio2, .testimonio3{
+    width: 300px; 
+    display: flex;
+   flex-direction: column;
+}
+
+
+
+/* FOOTER */
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+    font-size: 40px;
+    margin: 2em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.socials>a{
+    text-decoration: none;
+    color: #eaa8c6;
+}
+
+hr{
+  border:  solid 1px #eb89b5ff; 
+  
+}
+button{
+    padding:1rem; 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 2em 0; 
+    border-radius: 20px;
+    border:  solid 2px #eb89b5ff;
+
+}
+button:hover{
+   color: #eb89b5; 
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+#mensaje-prompt{
+    
+text-align: center;
+    font-size: 1.5rem;
+}
+
+.formulario h3{
+    font-size: 1.8rem;
+    margin: 5rem 0 2rem 0  ;  
+}
+.formulario{
+    margin: 2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
