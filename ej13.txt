@@ -1,0 +1,10 @@
+13. Como revisamos las versiones de TS, Node, el instalador de paquetes y Angular, escribe los comandos en consola necesarios. 
+
+
+Para revisar la versión de TypeScript(TS): tsc -v
+
+Para revisar la versión de Node: node -v
+
+Para revisar la versión del instalador de paquetes npm: npm -v
+
+Para revisar la versión de Angular: ng version
